@@ -1,0 +1,19 @@
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
+        
+     ActionListener actListner = new ActionListener() 
+     {    
+      @Override
+      public void actionPerformed(ActionEvent event) 
+      {
+       //cnt += 1;
+       //System.out.println("Counter = "+cnt);
+          x += 1; 
+          jLabel1.setText(String.valueOf(x));
+          System.out.println("Ya haa pasado un segundo"+x);
+       }
+     };
+                          // milisegundos,Action
+   Timer timer = new Timer(1000, actListner);
+   timer.start();
+      
+    }
