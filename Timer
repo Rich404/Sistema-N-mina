@@ -17,3 +17,12 @@ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
    timer.start();
       
     }
+    
+    
+    
+    
+    
+    
+    JFrame miFrame = new JFrame(new BorderLayout()); 
+JPanel miPanel = new JPanel(); 
+miFrame.add(miPanel, BorderLayout.CENTER);
